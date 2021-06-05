@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+.counter__button {
+  border: none;
+  color: white;
+  width: 64px;
+  height: 64px;
+  font-size: 32px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.counter__button:active {
+  transform: translateY(4px);
+}
+
+.counter__button--increaser {
+  background-color: #477774;
+  margin-left: 16px;
+}
+
+.counter__button--decreaser {
+  background-color: #db2147;
+}
+
+.counter__container {
+  display: flex;
+  align-items: center;
+}
+
+.custom-input {
+  padding: 12px 24px;
+  font-size: 20px;
+  color: #333;
+  font-weight: 700;
+}
+
+.error-text {
+  color: #EB440B;
+  margin: 16px 0;
+}
